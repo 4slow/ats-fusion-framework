@@ -1,0 +1,24 @@
+# Secrets / env
+main.env
+.env
+*.env
+
+# State / logs / caches
+state*.json
+*_cache.json
+*.log
+trades_log.csv
+logs/
+cache/
+__pycache__/
+*.pyc
+
+# OS
+.DS_Store
+Thumbs.db
+out/
+trades*.csv
+.pytest_cache/
+.venv/
+.idea/
+.vscode/
